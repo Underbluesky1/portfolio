@@ -1,17 +1,17 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #f7f3ee;
+  --background-soft: #efe5d7;
+  --surface: rgba(255, 255, 255, 0.58);
+  --foreground: #1c1b1a;
+  --muted: #6d625c;
+  --accent: #b06a3d;
+  --accent-strong: #8f4d2e;
+  --line: rgba(28, 27, 26, 0.08);
+  --shadow: 0 24px 60px rgba(35, 25, 17, 0.12);
 }
 
 html {
-  height: 100%;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -21,12 +21,14 @@ body {
 }
 
 body {
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(176, 106, 61, 0.12), transparent 28%),
+    var(--background);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -42,8 +44,13 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
 }
