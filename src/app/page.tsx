@@ -109,7 +109,7 @@ export default function Home() {
           <h2>Building dependable backend systems that support business growth and product quality.</h2>
           <p className={styles.summary}>
             Back-end developer with 7+ years of experience building and maintaining reliable web
-            applications using PHP and Laravel. I work effectively with APIs, databases, remote teams,
+            applications using Java, C#, Python, PHP. I work effectively with APIs, databases, remote teams,
             and AI-assisted workflows to deliver clean, maintainable software for digital products and client projects.
           </p>
           <div className={styles.actions}>
