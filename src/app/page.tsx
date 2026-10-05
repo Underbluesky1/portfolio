@@ -2,28 +2,35 @@ import styles from "./page.module.css";
 
 const experience = [
   {
+    year: "2026-2026",
+    title: "Software Engineer",
+    company: "Studio Shodwe • San Mateo, CA",
+    description:
+      "Architecting high-throughput, low-latency microservices using FastAPI and Python extensions alongside Next.js and TypeScript frontends to support enterprise insurance analytics engines. Building modern, interactive dashboard interfaces with React, Tailwind CSS, and TanStack Query to visualize complex document extraction outputs and real-time system metrics.",
+  },
+  {
     year: "2024-2026",
-    title: "Back-End Developer",
+    title: "Senior Backend / Platform Engineer",
     company: "Studio Shodwe • San Mateo, CA",
     description:
       "Developed and maintained back-end features and APIs using PHP and Laravel for client projects across finance and consumer services. Designed and optimized MySQL databases, troubleshot production issues, and supported third-party integrations and WordPress/Moodle-related tasks while collaborating in Agile workflows.",
   },
   {
-    year: "2022-2024",
-    title: "Back-End Developer",
+    year: "2024-2024",
+    title: "Software Engineer",
     company: "Rimberio Co • Cupertino, CA",
     description:
       "Assisted in developing back-end modules using PHP and Laravel, supported database design, basic MySQL operations, and API endpoint creation, participated in bug fixing, testing, and documentation, and gained hands-on experience with Git and remote collaboration in a fast-paced environment.",
   },
   {
-    year: "2020-2022",
+    year: "2022-2024",
     title: "Back-End Developer",
     company: "Thynk Unlimited • San Francisco, CA",
     description:
       "Built and maintained Laravel-based applications and RESTful APIs for e-commerce and service platforms, managed MySQL databases, wrote efficient queries, and improved maintainability and performance while working closely with cross-functional teams and stakeholders.",
   },
   {
-    year: "2018-2019",
+    year: "2019-2021",
     title: "Software Engineer Intern",
     company: "Arowwai Industries • Mountain View, CA",
     description:
@@ -32,6 +39,9 @@ const experience = [
 ];
 
 const skills = [
+  "Java",
+  "Python",
+  "C# / .NET",
   "PHP",
   "Laravel",
   "MySQL",
@@ -43,9 +53,9 @@ const skills = [
   "React",
   "Next.js",
   "Node.js",
-  "Python",
-  "Java",
-  "C# / .NET",
+
+
+
   "VB6",
   "Git",
   "Docker",
@@ -95,10 +105,10 @@ export default function Home() {
 
       <section className={styles.hero}>
         <div className={styles.heroText}>
-          <p className={styles.kicker}>Software engineer</p>
-          <h1>Building dependable backend systems that support business growth and product quality.</h1>
-          <p className={styles.lead}>
-            Back-end developer with 3+ years of experience building and maintaining reliable web
+          <p className={styles.lead}>SeniorSoftware engineer</p>
+          <h2>Building dependable backend systems that support business growth and product quality.</h2>
+          <p className={styles.summary}>
+            Back-end developer with 7+ years of experience building and maintaining reliable web
             applications using PHP and Laravel. I work effectively with APIs, databases, remote teams,
             and AI-assisted workflows to deliver clean, maintainable software for digital products and client projects.
           </p>
@@ -123,8 +133,8 @@ export default function Home() {
           </div>
           <div className={styles.cardSmall}>
             <div className={styles.metricBox}>
-              <strong>3+</strong>
-              <span>Years in backend</span>
+              <strong>7+</strong>
+              <span>Years in Software Engineering</span>
             </div>
           </div>
         </div>
@@ -167,15 +177,17 @@ export default function Home() {
 
         <div className={styles.aboutContent}>
           <p>
-            Back-End Developer with 3+ years of experience building and maintaining reliable
-            web applications using PHP and Laravel. Strong foundation in MySQL, API development,
-            and back-end integrations. Detail-oriented and collaborative team player who works
-            effectively with front-end developers, QA, project managers, and remote international teams.
+            Backend-focused software engineer with 7+ years of experience designing and maintaining
+            scalable APIs, business logic, and data-driven systems using Java, Python, C#, and
+            modern web technologies. Strong foundation in database design, service integration,
+            performance tuning, and collaborating with product and frontend teams to deliver reliable
+            software across complex business workflows.
           </p>
           <p>
-            Comfortable using AI-assisted tools such as Cursor, Claude, and GitHub Copilot to
-            improve productivity while writing clean, maintainable code. Eager to grow in a
-            fast-paced digital agency environment and deliver high-quality solutions for global clients.
+            I enjoy building robust backend services while pairing them with clean React-based
+            frontends to create end-to-end product experiences. Comfortable working with AI-assisted
+            tooling, code review practices, and cross-functional delivery teams to ship maintainable,
+            secure, and high-quality solutions for both internal and client-facing platforms.
           </p>
         </div>
       </section>
@@ -202,9 +214,10 @@ export default function Home() {
           <p>Technological University of Tehuacán</p>
         </div>
         <div className={styles.contactLinks}>
-          <a href="mailto:bet.hes.uperbes.t116@gmail.com">bet.hes.uperbes.t116@gmail.com</a>
-          <a href="tel:+522381113215">+52 238 111 3215</a>
-          <a href="https://www.linkedin.com/in/cesar-evaristo-quintana-hernandez-4661677a" target="_blank" rel="noreferrer">linkedin.com/in/cesar-evaristo-quintana-hernandez-4661677a</a>
+          <a href="mailto:bet.hes.uperbes.t116@gmail.com">bethesuperbest116@gmail.com</a>
+          <a href="https://github.com/gotobluesky" target="_blank" rel="noreferrer">github.com/gotobluesky</a>
+          {/* <a href="tel:+522381113215">+52 238 111 3215</a> */}
+          <a href="https://www.linkedin.com/in/cesar-elvert-b5b230440/" target="_blank" rel="noreferrer">linkedin.com/in/cesar-elvert-b5b230440/</a>
         </div>
       </footer>
     </main>
